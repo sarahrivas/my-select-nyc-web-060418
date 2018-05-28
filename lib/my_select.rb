@@ -5,4 +5,5 @@ def my_select(collection)
     selected_arr.push(yield(collection[i]))
     i+=1
   end  
+  selected_arr
 end
