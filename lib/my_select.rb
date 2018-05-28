@@ -5,8 +5,8 @@ def my_select(collection)
     yield(collection[i])
     if collection[i] == true 
       selected_arr.push(collection[i])
+      i+=1
     end  
-    i+=1
   end  
   selected_arr
 end
