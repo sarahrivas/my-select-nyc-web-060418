@@ -3,5 +3,6 @@ def my_select(collection)
   selected_arr = []
   while i < collection.length
     selected_arr.push(yield(collection[i]))
+    i+=1
   end  
 end
